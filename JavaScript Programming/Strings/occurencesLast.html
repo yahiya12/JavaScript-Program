@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to All Character occurences</h1>
+    </body>
+    <script>
+function ocuurences(str,letter)
+{
+    var array=[]
+for(var i=0;i<str.length;i++){
+    if(str[i]==letter){
+        array.push(i);
+    }
+    
+}   
+return array;
+}
+str=prompt("Enter the String ");
+letter=prompt("Enter the letter to find");
+console.log(ocuurences(str,letter));
+
+    </script>
+</html>

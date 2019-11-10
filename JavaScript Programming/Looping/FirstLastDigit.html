@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program to find first and last digit of a number
+
+    </h1>
+</body>
+<script>
+let f,n,x=prompt("Enter the number ");
+
+  function first(n){
+      while(n>=10){
+          n=n/10;
+          f=Math.floor(n);
+
+      }
+      return f;
+  }
+function last(n){
+
+    return n % 10;     
+}
+
+    console.log(first(x));
+   console.log(last(x));
+
+
+  </script>
+    </html>

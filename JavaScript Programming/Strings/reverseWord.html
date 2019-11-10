@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to Reverse A Word in a string.</h1>
+    </body>
+    <script>
+      
+        
+a="yahiya rockz";
+array=a.split("")
+var arr=[];
+for(i=array.length;i>-1;i--){
+    arr.push(array[i])
+}
+var b=arr.join("")
+console.log(b)
+//OUTPUT : rockz yahiya
+
+       
+b="yahiya rockz";
+array1=b.split("");
+var arr1=[];
+for(i=array1.length;i>-1;i--){
+    arr1.push(array1[i])
+}
+var c=arr1.join("");
+console.log(c); 
+console.log(array1.length); 
+//OUTPUT : z k c o r   a y i h a y
+
+var n=12345;
+var rev;
+while (n != 0)
+  {
+    rev = rev * 10;
+    rev = rev + n%10;
+    n = n/10;
+  }
+  console.log(n);
+    </script>
+</html>

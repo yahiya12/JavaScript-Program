@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>string Palindrome.</h1>
+    </body>
+    <script>
+ function reverse(str){
+     newstr=str.split("");
+     result=[];
+     len=newstr.length;
+     for(i=len;i>-1;i--){
+         result.push(newstr[i])
+     }
+     sol=result.join("");
+     return sol;
+ }
+ let strings=prompt("Enter the string to check !");
+ rev=reverse(strings);
+ if(strings == rev){
+     console.log("This is Palindrome");
+ }
+ else{
+     console.log("this is not a palindrome");
+ }
+ 
+
+
+    </script>
+</html>

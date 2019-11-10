@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program to Product digit of a number
+
+    </h1>
+</body>
+<script>
+var num=12345;
+var product =1;
+arr=Array.from(String(num),Number);
+function product_Digit(n){
+    for(i=0;i<arr.length;i++){
+        product =product * arr[i];
+    }
+    return product;
+}
+console.log(product_Digit(num));
+  </script>
+    </html>

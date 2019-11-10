@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program to find first and last digit of a number
+
+    </h1>
+</body>
+<script>
+let str=prompt("Enter the string to count the digit").split(",");
+function toggle(str){
+    for(let i=0;i<str.length();i++){
+        if (str[i]>='A' && str[i]<='Z') 
+            str[i] = (str[i] + 'a' - 'A'); 
+        else if (str[i]>='a' && str[i]<='z') 
+            str[i] =  (str[i] + 'A' - 'a'); 
+    }
+}
+console.log(str);
+
+
+ 
+
+  </script>
+    </html>

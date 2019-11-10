@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to count total number of vowels and consonants in a string.</h1>
+    </body>
+    <script>
+   let str=["y","a","h","i","y","a"];
+   
+   let vowels=0;
+   let alphabets=0
+   let len=str.length;
+   for(i=0;i<len;i++){
+       if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'){
+           vowels++;
+       }
+       else{
+           alphabets++
+       }
+   }
+    console.log(vowels);
+    console.log(alphabets);
+    </script>
+</html>

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program to swap first and last number of Digit
+
+    </h1>
+</body>
+<script>
+/*
+var n,num=12345;
+function first(n){
+    while(n>=10){
+        n=n/10;
+        f=Math.floor(n)
+    }
+    return f;
+}
+function last(n){
+    return n%10;
+}
+fi=first(num);
+la=last(num);
+console.log(fi,la);
+
+//Swapping
+var temp;
+temp=fi;
+fi=la;
+la=temp;
+console.log(fi,la);
+console.log(num);
+*/
+function swap(arra) {
+    [arra[0], arra[arra.length - 1]] = [arra[arra.length - 1], arra[0]];
+    return arra;
+}
+var n=12345;
+
+var ar=Array.from(String(n), Number);
+
+console.log(swap(ar)); 
+  </script>
+    </html>

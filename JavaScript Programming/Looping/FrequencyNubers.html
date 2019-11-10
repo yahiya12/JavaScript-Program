@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program to Frequency Of  The Number
+
+    </h1>
+</body>
+<script>
+ var num=123445567;
+ var str=Array.from(String(num),Number);
+var obj={};
+var maxkey="";
+for(var i=0;i<str.length;i++){
+    var key=str[i];
+    if(!obj[key]){
+        obj[key]=0;
+    }
+    obj[key]++;
+    if(maxkey == "" ||obj[key]>obj[maxkey]){
+        maxkey=key;
+    }
+}
+console.log(obj);
+
+/*
+var exp = 'yahiyarockzzz' ;
+var expCounts = {};
+var maxKey = '';
+for(var i = 0; i < exp.length; i++)
+{
+    var key = exp[i];
+ 
+
+    if(!expCounts[key]){
+     expCounts[key] = 0;
+    }
+    expCounts[key]++;
+    if(maxKey == '' || expCounts[key] > expCounts[maxKey]){
+        maxKey = key;
+    }
+}
+
+console.log(maxKey + ":" + expCounts[maxKey]);
+*/
+
+
+
+
+
+  </script>
+    </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to ArmStrong Number</h1>
+    </body>
+    <script>
+var prime,begin,end,sum=0;
+begin=3;
+end=10;
+for(i=begin;i<end;i++){
+    prime=true;
+    for(j=2;j<i;j++){
+        if(i%j==0 && i!=j){
+            prime=false;
+        }
+    }
+    if(prime==true){
+        console.log(i);
+        sum=sum+i;
+    }
+}
+alert(sum);
+
+
+  </script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to ArmStrong Number</h1>
+    </body>
+    <script>
+var limit=8;
+var first=0;
+var sec = 1;
+var temp,i;
+for(i=2;i<limit;i++){
+    temp=first + sec;
+    first = sec;
+    sec=temp;
+    console.log(temp);
+}
+console.log(temp);
+  </script>
+</html>

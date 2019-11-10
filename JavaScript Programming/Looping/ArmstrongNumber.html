@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to ArmStrong Number</h1>
+    </body>
+    <script>
+var num,rem,flag,sum=0
+num=1634;
+flag=num;
+while(num>0){
+    rem=num%10;
+    sum=Math.pow(rem,sum);
+    num=parseInt(num/10);
+    alert(sum);
+   
+}
+if(sum==flag){
+    alert(" Armstrong Number");
+}
+else{
+    alert(" Not Armstrong Number");
+}
+
+
+  </script>
+</html>

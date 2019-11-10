@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to First Character occurences</h1>
+    </body>
+    <script>
+function ocuurences(str,letter)
+{
+for(var i=0;i<str.length;i++){
+    if(str[i]==letter){
+        console.log(str.indexOf(letter));
+    }
+}   
+}
+str=prompt("Enter the String ");
+letter=prompt("Enter the letter to find");
+console.log(ocuurences(str,letter));
+
+    </script>
+</html>

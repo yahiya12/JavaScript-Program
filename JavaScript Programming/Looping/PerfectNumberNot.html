@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Js Program</title>
+    </head>
+    <body>
+        <h1>Write a program to Perfect Number</h1>
+    </body>
+    <script>
+var num,rem,sum=0;
+num=28;
+for(var i=1;i<num;i++){
+    rem=num%i;
+    if(rem==0){
+        sum=sum+i;
+    }
+   
+}
+
+if(sum==num){
+        console.log("Perfect Number");
+    }
+    else{
+        console.log("Not A Perfect Number");
+    }
+  </script>
+</html>

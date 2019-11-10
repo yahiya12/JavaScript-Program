@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program to find total number of alphabets, digits or special character in a string
+<div>  
+
+</div>
+    </h1>
+</body>
+<script>
+var alphabet=0;
+var symbol=0;
+var number=0;
+var array=["y","a","h","@","2","3","$"]
+var len= array.length;
+var alpha= /[a-z]/g;
+var num= /[0-9]/g;
+for(i=0;i<len;i++){
+if(array[i].match(alpha)){
+alphabet++;
+}
+else if(array[i].match(num)){
+number++;
+}
+else{
+symbol++;
+}
+}
+console.log(alphabet,number,symbol);
+ 
+
+  </script>
+    </html>

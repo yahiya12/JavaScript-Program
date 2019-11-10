@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program to sum  digit of a number
+
+    </h1>
+</body>
+<script>
+var num=12345;
+var sum = 0;
+var arr=Array.from(String(num),Number);
+function sumOfDigit(n){
+    for(var i=0;i<arr.length;i++){
+        sum = sum+arr[i];
+        
+    }
+    return sum;
+}
+console.log(sumOfDigit(num));
+  </script>
+    </html>

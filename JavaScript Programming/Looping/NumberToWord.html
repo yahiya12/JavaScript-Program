@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1><html>
+    <head>
+        <title>
+     JS Program
+        </title>
+    </head>
+<body>
+    <h1>Write a program Number To Word
+
+    </h1>
+    <div id = "test"></div>
+</body>
+<script>
+    var num=1234;
+    var res =[];
+    var word=
+    {
+        1 : "One",
+        2 : "Two",
+        3 : "Three",
+        4 : "Four",
+        5 : "Five",
+        6 : "six",
+        7 : "Seven",
+        8 : "Eight",
+        9 : "Nine",
+        0 : "Zero"
+    }
+    var i = 0;
+    while(num > 0)
+    {
+        n = Math.floor(num % 10);
+        
+        if(n in word)
+            res[i++] = word[n];
+        
+        num = Math.floor(num / 10);
+    }
+    console.log(res.reverse())
+    //var result = res.reverse().toString().split(",");
+    document.getElementById("test").innerHTML = res;
+  /*  var arr=Array.from(String(num),Number);
+    for(i=0;i<arr.length;i++){
+        if(arr[i])
+
+    }
+console.log(word[6]);
+
+
+for(i=0;i<arr.length;i++){
+        for(j=0;j<word.length;j++){
+            if(arr[i]==word[j]){
+                result.push(word[j]);
+            }
+        }
+    }
+*/
+
+  </script>
+    </html>
+
+    
